@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppBaseMVVM</string>
+    <string name="lorem">Recordar es fácil para quien tiene memoria. Olvidar es difícil para el que tiene corazón.</string>
+</resources>
