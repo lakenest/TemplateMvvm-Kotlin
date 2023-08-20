@@ -1,9 +1,12 @@
 package com.example.appbasemvvm.data.model
 
-/***Aqui deberia ir Retrofit, Room***/
-class QuoteProvider {
+import javax.inject.Inject
+import javax.inject.Singleton
 
-    companion object{
+/***Aqui deberia ir Retrofit, Room***/
+@Singleton
+class QuoteProvider @Inject constructor() {
+
         var quotes:List<QuoteModel> = emptyList()
 
         /*fun random(): QuoteModel {
@@ -25,6 +28,6 @@ class QuoteProvider {
             QuoteModel("Un hombre ingenioso no se equivoca. Sus errores son volitivos y son portales del descubrimiento.","James Joyce"),
 
             )*/
-    }
+
 
 }
