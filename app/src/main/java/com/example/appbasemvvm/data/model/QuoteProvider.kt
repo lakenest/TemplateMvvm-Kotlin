@@ -1,10 +1,12 @@
-package com.example.appbasemvvm.model
+package com.example.appbasemvvm.data.model
 
 /***Aqui deberia ir Retrofit, Room***/
 class QuoteProvider {
 
     companion object{
-        fun random():QuoteModel{
+        var quotes:List<QuoteModel> = emptyList()
+
+        /*fun random(): QuoteModel {
             val position = (0..10).random()
             return quote[position]
         }
@@ -22,7 +24,7 @@ class QuoteProvider {
             QuoteModel("Como no me he preocupado de nacer, no me preocupo de morir.","Federico García Lorca"),
             QuoteModel("Un hombre ingenioso no se equivoca. Sus errores son volitivos y son portales del descubrimiento.","James Joyce"),
 
-            )
+            )*/
     }
 
 }
