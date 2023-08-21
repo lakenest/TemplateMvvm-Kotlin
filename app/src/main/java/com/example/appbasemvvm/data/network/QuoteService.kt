@@ -1,5 +1,4 @@
 package com.example.appbasemvvm.data.network
-
 import com.example.appbasemvvm.data.model.QuoteModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
